@@ -28,7 +28,9 @@ Route::get('/dashboard', function () {
 Route::middleware('auth')->group(function () {
     Route::get('/painel/paginaInicial',[PainelController::class, 'index'])->name('paginaInicial');//pagina inicial
     Route::get('painel/explorar',[PainelController::class,'explorar'])->name('explorar');//explorar
-    Route::get('/painel/biblioteca', [PainelController::class, 'biblioteca'])->name('biblioteca');
+    Route::get('/painel/biblioteca', [PainelController::class, 'biblioteca'])->name('biblioteca');//biblioteca
+    Route::get('/painel/meusLivros', [PainelController::class, 'meusLivros'])->name('meusLivros');
+    //default de autenticação
     Route::get('/painel/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/painel/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/painel/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');

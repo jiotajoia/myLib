@@ -12,5 +12,5 @@
             </div>
         </div>
     </div>
-  @endsection
+@endsection
 </x-app-layout> 

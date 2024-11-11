@@ -25,5 +25,10 @@ class PainelController extends Controller
         $title = "Biblioteca";
         return view('painel.biblioteca', compact('title'));
     }
+
+    public function meusLivros(){
+        $title = "Meus Livros";
+        return view('painel.meusLivros', compact('title'));
+    }
 }
  
