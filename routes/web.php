@@ -1,8 +1,9 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Site\SiteController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Painel\PainelController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,14 +19,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/contato', [SiteController::class, 'contact']);
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::get('/painel/paginaInicial',[PainelController::class, 'index'])->name('paginaInicial');//pagina inicial
+    Route::get('painel/explorar',[PainelController::class,'explorar'])->name('explorar');//explorar
+    Route::get('/painel/biblioteca', [PainelController::class, 'biblioteca'])->name('biblioteca');
+    Route::get('/painel/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/painel/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/painel/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
 require __DIR__.'/auth.php';
+ 
