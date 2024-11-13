@@ -8,12 +8,11 @@ use Illuminate\View\Component;
 
 class navigation extends Component
 {
-    /**
-     * Create a new component instance.
-     */
+   public $page;
+
     public function __construct()
     {
-        //
+      
     }
 
     /**
@@ -21,6 +20,7 @@ class navigation extends Component
      */
     public function render(): View|Closure|string
     {
+
         return view('components.navigation');
     }
 }
