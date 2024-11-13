@@ -27,7 +27,7 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="g-sidenav-show  bg-gray-100 ">
+    <body class="g-sidenav-show bg-gray-100 ">
             <x-menu/>
             {{-- <x-navigation/> --}}
 
@@ -35,7 +35,7 @@
             @if (isset($header))
                 <header class="bg-white dark:bg-gray-800 shadow">
                     <div class="max-w-7xl mx-auto py-2 px-4 sm:px-6 lg:px-8">
-                        <x-navigation/>
+                        <x-navigation />
                         </div>
                 </header>
             @endif

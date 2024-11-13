@@ -1,5 +1,4 @@
-<div>
-   <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-radius-lg fixed-start ms-2 my-2 ps bg-gradient-dark bg-white" id="sidenav-main">
+<aside class="sidenav navbar navbar-vertical navbar-expand-xs border-radius-lg fixed-start ms-2 my-2 ps bg-gradient-dark bg-white" id="sidenav-main">
     <div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
       <a class="navbar-brand px-4 py-3 m-0" href=" {{ route('paginaInicial') }}">
@@ -16,7 +15,7 @@
             <span class="nav-link-text ms-1">Página Inicial</span>
           </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item"> 
           <a class="nav-link text-white" href="{{route('explorar')}}">
             {{-- <i class="material-icons md-48"></i> --}}
             <i class="material-symbols-rounded opacity-5">manage_search</i>
@@ -69,4 +68,3 @@
       </div>
     </div>
   </aside>
-</div> 
