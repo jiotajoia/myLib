@@ -1,5 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
+
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
             {{ __('Página Inicial') }}
         </h2>
@@ -12,114 +13,6 @@
                     <div class="row">
                         <div class="ms-3">
                             <h3 class="mb-0 h4 font-weight-bolder">Trending</h3>
-                        </div>
-
-                        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-interval="false">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row">
-
-                                        <div class="col-4 mt-4 mb-4">
-                                            <div class="card" style="width: 18rem;">
-                                                <img src="..." class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Card title</h5>
-                                                    <p class="card-text">Some quick example text to build on the card title
-                                                        and make up the bulk of the card's content.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-4 mt-4 mb-4">
-                                            <div class="card" style="width: 18rem;">
-                                                <img src="..." class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Card title</h5>
-                                                    <p class="card-text">Some quick example text to build on the card title
-                                                        and make up the bulk of the card's content.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-4 mt-4 mb-4">
-                                            <div class="card" style="width: 18rem;">
-                                                <img src="..." class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Card title</h5>
-                                                    <p class="card-text">Some quick example text to build on the card title
-                                                        and make up the bulk of the card's content.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
-
-                                </div>
-                                <div class="carousel-item">
-
-
-
-                                    <div class="row">
-
-                                        <div class="col-4 mt-4 mb-4">
-                                            <div class="card" style="width: 18rem;">
-                                                <img src="..." class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Card title</h5>
-                                                    <p class="card-text">Some quick example text to build on the card title
-                                                        and make up the bulk of the card's content.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-4 mt-4 mb-4">
-                                            <div class="card" style="width: 18rem;">
-                                                <img src="..." class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Card title</h5>
-                                                    <p class="card-text">Some quick example text to build on the card title
-                                                        and make up the bulk of the card's content.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="col-4 mt-4 mb-4">
-                                            <div class="card" style="width: 18rem;">
-                                                <img src="..." class="card-img-top" alt="...">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Card title</h5>
-                                                    <p class="card-text">Some quick example text to build on the card title
-                                                        and make up the bulk of the card's content.</p>
-                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
-                                </div>
-
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
                         </div>
 
                         <div class="col-4 mt-4 mb-4">
@@ -142,9 +35,9 @@
                             </div>
                         </div>
                         <div class="col-4 mt-4 mb-4">
-                            <div class="card ">
+                            <div class="card">
                                 <div class="card-body">
-                                    <h6 class="mb-0 "> Livro </h6>
+                                    <h6 class="mb-0 ">Livro</h6>
                                     <p class="text-small">Descrição </p>
                                     <div class="pe-2">
                                         <div class="chart">
@@ -186,226 +79,529 @@
                             <h3 class="mb-0 h4 font-weight-bolder">Para Você</h3>
                         </div>
 
-                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
-                            <div class="card">
-                                <div class="card-header p-2 ps-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p class="text-small mb-0 text-capitalize">Livro</p>
-                                            <h4 class="mb-0">Descrição</h4>
+                        <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
 
-                                    </div>
-                                </div>
-                                <hr class="dark horizontal my-0">
-                                <div class="card-footer p-2 ps-3">
-                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
-                            <div class="card">
-                                <div class="card-header p-2 ps-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p class="text-small mb-0 text-capitalize">Livro</p>
-                                            <h4 class="mb-0">Descrição</h4>
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
 
-                                    </div>
-                                </div>
-                                <hr class="dark horizontal my-0">
-                                <div class="card-footer p-2 ps-3">
-                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
-                            <div class="card">
-                                <div class="card-header p-2 ps-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p class="text-small mb-0 text-capitalize">Livro</p>
-                                            <h4 class="mb-0">Descrição</h4>
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
 
-                                    </div>
-                                </div>
-                                <hr class="dark horizontal my-0">
-                                <div class="card-footer p-2 ps-3">
-                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
-                            <div class="card">
-                                <div class="card-header p-2 ps-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p class="text-small mb-0 text-capitalize">Livro</p>
-                                            <h4 class="mb-0">descrição</h4>
+                                        
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
 
-                                    </div>
-                                </div>
-                                <hr class="dark horizontal my-0">
-                                <div class="card-footer p-2 ps-3">
-                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
-                            <div class="card">
-                                <div class="card-header p-2 ps-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p class="text-small mb-0 text-capitalize">Livro</p>
-                                            <h4 class="mb-0">Descrição</h4>
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
 
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <hr class="dark horizontal my-0">
-                                <div class="card-footer p-2 ps-3">
-                                    <p class="mb-0 text-small"><span class="text-danger font-weight-bolder">Tags</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="col-xl-2 col-sm-3">
-                            <div class="card">
-                                <div class="card-header p-2 ps-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p class="text-small mb-0 text-capitalize">Livro</p>
-                                            <h4 class="mb-0">Descrição</h4>
+                                </div>
+                                <div class="carousel-item">
+
+
+
+                                    <div class="row">
+
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
 
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+
+
                                 </div>
-                                <hr class="dark horizontal my-0">
-                                <div class="card-footer p-2 ps-3">
-                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
-                                    </p>
-                                </div>
+
                             </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
                     <div class="row">
                         <div class="ms-3">
                             <h3 class="mb-0 h4 font-weight-bolder">Gênero 1</h3>
                         </div>
-                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
-                            <div class="card">
-                                <div class="card-header p-2 ps-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p class="text-small mb-0 text-capitalize">Livro</p>
-                                            <h4 class="mb-0">Descrição</h4>
+                        
+                        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
 
-                                    </div>
-                                </div>
-                                <hr class="dark horizontal my-0">
-                                <div class="card-footer p-2 ps-3">
-                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
-                            <div class="card">
-                                <div class="card-header p-2 ps-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p class="text-small mb-0 text-capitalize">Livro</p>
-                                            <h4 class="mb-0">Descrição</h4>
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
 
-                                    </div>
-                                </div>
-                                <hr class="dark horizontal my-0">
-                                <div class="card-footer p-2 ps-3">
-                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
-                            <div class="card">
-                                <div class="card-header p-2 ps-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p class="text-small mb-0 text-capitalize">Livro</p>
-                                            <h4 class="mb-0">Descrição</h4>
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
 
-                                    </div>
-                                </div>
-                                <hr class="dark horizontal my-0">
-                                <div class="card-footer p-2 ps-3">
-                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
-                            <div class="card">
-                                <div class="card-header p-2 ps-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p class="text-small mb-0 text-capitalize">Livro</p>
-                                            <h4 class="mb-0">descrição</h4>
+                                        
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
 
-                                    </div>
-                                </div>
-                                <hr class="dark horizontal my-0">
-                                <div class="card-footer p-2 ps-3">
-                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
-                            <div class="card">
-                                <div class="card-header p-2 ps-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p class="text-small mb-0 text-capitalize">Livro</p>
-                                            <h4 class="mb-0">Descrição</h4>
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <hr class="dark horizontal my-0">
-                                <div class="card-footer p-2 ps-3">
-                                    <p class="mb-0 text-small"><span class="text-danger font-weight-bolder">Tags</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="col-xl-2 col-sm-3">
-                            <div class="card">
-                                <div class="card-header p-2 ps-3">
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <p class="text-small mb-0 text-capitalize">Livro</p>
-                                            <h4 class="mb-0">Descrição</h4>
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+
                                 </div>
-                                <hr class="dark horizontal my-0">
-                                <div class="card-footer p-2 ps-3">
-                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
-                                    </p>
+                                <div class="carousel-item">
+
+
+
+                                    <div class="row">
+
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-2 col-sm-3 mb-xl-0 mb-4">
+                                            <div class="card">
+                                                <div class="card-header p-2 ps-3">
+                                                    <div class="d-flex justify-content-between">
+                                                        <div>
+                                                            <p class="text-small mb-0 text-capitalize">Livro</p>
+                                                            <h4 class="mb-0">Descrição</h4>
+                                                        </div>
+                
+                                                    </div>
+                                                </div>
+                                                <hr class="dark horizontal my-0">
+                                                <div class="card-footer p-2 ps-3">
+                                                    <p class="mb-0 text-small"><span class="text-success font-weight-bolder">Tags</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
                                 </div>
+
                             </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
                     <footer class="footer py-4  ">
