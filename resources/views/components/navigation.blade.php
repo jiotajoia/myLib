@@ -1,4 +1,4 @@
-<nav class="navbar navbar-main navbar-expand-lg px-0 mx-10" id="navbarBlur"
+<nav class="navbar navbar-main navbar-expand-lg px-0 mx-10 shadow-none" id="navbarBlur"
         data-scroll="true">
         <div class="container-fluid py-1 px-3">
             <nav aria-label="breadcrumb">
@@ -11,9 +11,6 @@
 
                 <div class="ms-md-auto pe-md-3 d-flex align-items-center">
 
-                    <div>
-                        <input class="btn btn-primary mb-0 me-2 px-py-2" type="submit" value="Pesquisa">
-                    </div>
                     <div class="input-group input-group-outline">
                         <label class="form-label">Type here...</label>
                         <input type="text" class="form-control">
@@ -21,6 +18,9 @@
                 </div>
                 <ul class="ms-md-80 pe-md- navbar-nav d-flex align-items-center  justify-content-end">
 
+                    <li class="nav-item d-flex align-items-center">
+                        <a class="btn btn-primary mb-0 me-2 px-py-2" target="" href="">Pesquisa</a>
+                      </li>
                     <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
                         <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
                             <div class="sidenav-toggler-inner">
