@@ -9,7 +9,10 @@
     @section('content')
         <div class="py-3 max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="container-fluid py-2">
+                <div class="p-4 text-gray-900 dark:text-gray-100">
+                    <h3>{{$title}}</h3>
+                </div>
+                <div class="container-fluid py-0">
                     <div class="row">
                         <div class="ms-3">
                             <h3 class="mb-0 h4 font-weight-bolder">Trending</h3>
