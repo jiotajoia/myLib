@@ -22,104 +22,15 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-4 mt-4 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Gênero</h5>
-                                <a href="#" class="btn btn-primary">Gênero</a>
-                            </div>
-                        </div>
 
-                    </div>
+                    @foreach ($category_all as $item)
+                        <div class="col-4 mt-4 mb-4">
+                            <a href="#" class="btn btn-primary">{{ $item->name }}</a>
+                       </div>
+                    @endforeach
 
-                    <div class="col-4 mt-4 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Gênero</h5>
-                                <a href="#" class="btn btn-primary">Gênero</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-4 mt-4 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Gênero</h5>
-                                <a href="#" class="btn btn-primary">Gênero</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-4 mt-4 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Gênero</h5>
-                                <a href="#" class="btn btn-primary">Gênero</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-4 mt-4 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Gênero</h5>
-                                <a href="#" class="btn btn-primary">Gênero</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-4 mt-4 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Gênero</h5>
-                                <a href="#" class="btn btn-primary">Gênero</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-4 mt-4 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Gênero</h5>
-                                <a href="#" class="btn btn-primary">Gênero</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-4 mt-4 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Gênero</h5>
-                                <a href="#" class="btn btn-primary">Gênero</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-4 mt-4 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Gênero</h5>
-                                <a href="#" class="btn btn-primary">Gênero</a>
-                            </div>
-                        </div>
-
-                    </div>
                 </div>
             </div>
-
-
-
 
         </div>
     @endsection
