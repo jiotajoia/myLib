@@ -64,7 +64,7 @@
     
     <div class="sidenav-footer position-relative w-100">
       <div class="my-10 mx-3">
-        <a class="btn bg-gradient-dark w-100" href="" type="button">Escrever</a>
+        <a class="btn bg-gradient-dark w-100" href="{{route('escrever')}}" type="button">Escrever</a>
       </div>
     </div>
   </aside>
