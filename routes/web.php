@@ -30,6 +30,7 @@ Route::middleware('auth')->group(function () {
     Route::get('painel/explorar',[PainelController::class,'explorar'])->name('explorar');//explorar
     Route::get('/painel/biblioteca', [PainelController::class, 'biblioteca'])->name('biblioteca');//biblioteca
     Route::get('/painel/meusLivros', [PainelController::class, 'meusLivros'])->name('meusLivros');//meus livros
+    Route::get('/painel/escrever', [PainelController::class, 'escrever'])->name('escrever');//escrever
     //default de autenticação
     Route::get('/painel/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/painel/profile', [ProfileController::class, 'update'])->name('profile.update');
