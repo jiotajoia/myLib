@@ -341,11 +341,21 @@
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="ms-3">
-                            <h3 class="mb-0 h4 font-weight-bolder">Gênero 1</h3>
-                        </div>
+                    </div><br>
+                    <div class="row">                      
+                         <div class="mb-4 row">                           
+                                <label for="category_id" class="col-sm-1 col-form-label"><span class="mb-0 h4 font-weight-bolder">Genero</span></label>
+                                <div class="col-sm-4">
+                                    <div class="px-2 input-group input-group-outline">
+                                     <select name="" id="category_id" class="form-select" >
+                                        <option value="">Selecione</option>
+                                        @foreach ($category_all as $item)
+                                        <option value="">{{$item->name}}</option>
+                                        @endforeach
+                                     </select>
+                                     </div>
+                                  </div>
+                         </div>
                         
                         <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-interval="false">
                             <div class="carousel-inner">
