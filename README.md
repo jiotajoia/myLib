@@ -1,5 +1,5 @@
 # myLib
-O myLib é plataforma de autopublicação de livros.
+O myLib é uma plataforma de autopublicação de livros.
 
 ## Apêndice
 
