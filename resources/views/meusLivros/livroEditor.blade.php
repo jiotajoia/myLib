@@ -82,8 +82,6 @@
                         </select>
                     </div>
 
-
-
                     <a href="">Estatísticas</a>
                 </div>
 
