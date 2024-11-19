@@ -82,24 +82,8 @@
                         </select>
                     </div>
 
-
-
                     <a href="">Estatísticas</a>
                 </div>
-
-                {{-- chapters --}}
-                <div class="row">
-
-                    <div class="col-md-2">
-                        <h3>Capítulos</h3>
-                    </div>
-
-                    <div class="col-md-10 d-flex justify-content-end">
-                        <a class="btn btn-primary mb-0 me-2 px-py-2" target="" href="">Criar Novo Capítulo</a>
-                    </div>
-
-                </div>
-
 
             </div>
 
